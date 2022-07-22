@@ -1,3 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: playfair display;
+  font-weight: bold;
+  color: black;
+}
+
 h1 {
+  font-size: 96px;
+}
+h2 {
+  font-family: poppins, sans-serif;
+}
+
+.logo {
+  size: 30px;
+}
+
+.hero {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.hero p {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
   font-family: poppins;
+  color: #272142;
+}
+.hero h1 {
+  font-size: 96px;
+}
+.hero h2 {
+  font-weight: none;
+  color: #272142;
+}
+.hero a {
+  background: #6c63ff;
+  font-size: 18px;
+  color: whitesmoke;
+  border-radius: 4px;
+  line-height: 28px;
 }

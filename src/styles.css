@@ -77,15 +77,16 @@ img {
     text-align: center;
   }
   .hero h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
   .hero p {
-    font-size: 28px;
+    font-size: 22px;
+    padding-top: 35px;
   }
   .hero h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
   .col-md-6 {
-    padding-top: 15px;
+    padding-top: 5px;
   }
 }

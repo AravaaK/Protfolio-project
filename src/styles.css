@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #734cd6;
+  --backgroung-primary-color: #f9f7fe;
   --primary-font-family: Playfair Display;
   --secondary-font-family: poppins;
   --primary-text-align: center;
@@ -7,22 +7,30 @@
   --title-secondary-color: #272142;
 }
 
+img {
+  border: 15px solid #f9f7fe;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
 .hero {
   text-align: center;
+  background-color: var(--backgroung-primary-color);
+  padding-bottom: 25px;
 }
 
 .hero p {
-  text-align: center;
   font-size: 36px;
   font-weight: bolder;
+  color: var(--title-secondary-color);
   font-family: var(--secondary-font-family);
-  color: #272142;
   padding-top: 150px;
 }
 .hero h1 {
   font-size: 96px;
   font-weight: bold;
   font-family: var(--primary-font-family);
+  color: var(--title-primary-color);
 }
 .hero h2 {
   font-family: var(--primary-font-family);
@@ -31,11 +39,53 @@
 }
 .hero a {
   background: #6c63ff;
-  font-family: poppins;
+  font-family: var(--secondary-font-family);
   font-size: 18px;
   color: white;
   border-radius: 4px;
   line-height: 27px;
-  padding: 18px 46px;
   text-decoration: none;
+}
+
+.yogurt-heading {
+  font-weight: bold;
+  font-family: var(--primary-font-family);
+}
+.weather-heading {
+  font-weight: bold;
+  font-family: var(--primary-font-family);
+}
+.dictionary-heading {
+  font-weight: bold;
+  font-family: var(--primary-font-family);
+}
+.container a {
+  border: 1px solid #6c63ff;
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  color: #6c63ff;
+  border-radius: 4px;
+  line-height: 27px;
+  text-decoration: none;
+}
+.container p {
+  opacity: 0.8;
+}
+
+@media (max-width: 412px) {
+  .container {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero p {
+    font-size: 28px;
+  }
+  .hero h2 {
+    font-size: 28px;
+  }
+  .col-md-6 {
+    padding-top: 15px;
+  }
 }

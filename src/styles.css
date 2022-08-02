@@ -13,6 +13,37 @@ img {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
+.about-hero img {
+  border: none;
+  margin-top: 15px;
+}
+.about-hero {
+  padding-top: 150px;
+  padding-bottom: 25px;
+}
+.about-hero h1 {
+  font-family: var(--primary-font-family);
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 600;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+.about-hero .btn-projects {
+  color: white;
+  font-family: var(--secondary-font-family);
+  background: #6c63ff;
+  font-size: 18px;
+  border-radius: 4px;
+  line-height: 27px;
+  text-decoration: none;
+}
+.about-content {
+  margin-right: 30px;
+}
 .hero {
   text-align: center;
   background-color: var(--backgroung-primary-color);
@@ -89,4 +120,25 @@ img {
   .col-md-6 {
     padding-top: 5px;
   }
+}
+
+@media (max-width: 810px) {
+  .about-hero {
+    padding-top: 35px;
+    text-align: center;
+  }
+  .about-hero h1 {
+    font-size: 42px;
+    padding-bottom: 10px;
+  }
+}
+
+.about-hero .btn {
+  background: #6c63ff;
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  line-height: 27px;
+  text-decoration: none;
 }

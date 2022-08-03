@@ -13,10 +13,6 @@ img {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
-.content-container img {
-  border: none;
-  margin-top: 15px;
-}
 .content-container {
   padding-top: 150px;
   padding-bottom: 25px;
@@ -30,6 +26,10 @@ img {
 .content-container h2 {
   font-size: 18px;
   font-family: var(--secondary-font-family);
+}
+.content-container img {
+  border: none;
+  margin-top: 15px;
 }
 
 .content-container .btn-projects {
@@ -54,6 +54,16 @@ img {
 }
 .content p {
   font-size: 14px;
+}
+
+.content .btn {
+  background: #6c63ff;
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  line-height: 27px;
+  text-decoration: none;
 }
 .content .hero {
   text-align: center;
@@ -104,7 +114,7 @@ img {
   font-weight: bold;
   font-family: var(--primary-font-family);
 }
-.container a {
+.container .links {
   border: 1px solid #6c63ff;
   font-family: var(--secondary-font-family);
   font-size: 16px;
@@ -113,6 +123,7 @@ img {
   line-height: 27px;
   text-decoration: none;
 }
+
 .container p {
   opacity: 0.8;
 }
@@ -145,14 +156,4 @@ img {
     font-size: 42px;
     padding-bottom: 10px;
   }
-}
-
-.content .btn {
-  background: #6c63ff;
-  font-family: var(--secondary-font-family);
-  font-size: 18px;
-  color: white;
-  border-radius: 4px;
-  line-height: 27px;
-  text-decoration: none;
 }

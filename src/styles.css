@@ -64,6 +64,18 @@ footer .contact-box {
   font-family: var(--secondary-font-family);
 }
 
+footer .contact-box p {
+  margin: 0 auto;
+}
+
+footer .btn-branding {
+  background-color: #6c63ff;
+  color: white;
+}
+footer .btn-light :hover {
+  background-color: var(--backgroung-primary-color);
+}
+
 @media (max-width: 420px) {
   .logo {
     display: none;
@@ -129,6 +141,11 @@ img {
 .content-container h2 {
   font-size: 18px;
   font-family: var(--secondary-font-family);
+}
+
+h3 {
+  font-size: 48px;
+  font-family: var(--primary-font-family);
 }
 .content-container img {
   border: none;
